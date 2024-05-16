@@ -1,0 +1,33 @@
+.recommended-section h3 {
+    font-size: 1.5rem;
+}
+
+.recommended-section .container {
+    background-position: center;
+    background-size: cover;
+}
+
+.recommended-section .container .bg-shape {
+    width: 25%;
+    background-color: var(--secondary-bg-color);
+    background-size: cover;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .recommended-section .container .bg-shape {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recommended-section .container .bg-shape {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}

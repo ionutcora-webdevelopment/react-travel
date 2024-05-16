@@ -1,0 +1,32 @@
+.carousel-item1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.40)), url(../../Assets/Images/header-img1.jpg);
+}
+
+.carousel-item2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.30)), url(../../Assets/Images/header-img2.jpg);
+}
+
+.carousel-item3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/header-img3.jpg);
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3 {
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item1 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/header-img1.jpg);
+    }
+    
+    .carousel-item2 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/header-img2.jpg);
+    }
+    
+    .carousel-item3 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../../Assets/Images/header-img3.jpg);
+    }
+}

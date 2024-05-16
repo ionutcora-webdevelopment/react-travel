@@ -1,0 +1,18 @@
+.need-inspiration-section {
+    background-size: cover;
+    background-position: center;
+}
+
+.need-inspiration-section .bg-shape {
+    width: 50%;
+    background-color: var(--secondary-bg-color);
+    background-size: cover;
+    bottom: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .need-inspiration-section .bg-shape {
+        width: 100%;
+    }
+}

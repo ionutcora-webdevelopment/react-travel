@@ -1,0 +1,33 @@
+.recent-holidays .row .col-lg-6:first-of-type .img-div {
+    background-image: url(../../Assets/Images/spain.jpg);
+}
+
+.recent-holidays .row .col-lg-6:nth-last-of-type(2) .img-div {
+    background-image: url(../../Assets/Images/portugal.jpg);
+}
+
+.recent-holidays .row .col-lg-6:nth-last-of-type(3) .img-div {
+    background-image: url(../../Assets/Images/greece.jpg);
+}
+
+.recent-holidays .row .col-lg-6:last-of-type .img-div {
+    background-image: url(../../Assets/Images/maldives.jpg);
+}
+
+.recent-holidays .img-div {
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.recent-holidays .h5,
+.recent-holidays .price {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .recent-holidays .img-div {
+        height: 200px;
+    }
+}

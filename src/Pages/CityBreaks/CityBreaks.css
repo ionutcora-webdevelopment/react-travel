@@ -1,0 +1,15 @@
+.city-breaks-page .second-hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/city-breaks-hero-bg.jpg);
+}
+
+.city-breaks-page .holiday-plan-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.75)), url(../../Assets/Images/city-breaks-holiday-plan-bg.jpg);
+}
+
+.city-breaks-page .recommended-section .container {
+    background-image: url(../../Assets/Images/city-breaks-recommended-section-bg.jpg);
+}
+
+.city-breaks-page .need-inspiration-section {
+    background-image: url(../../Assets/Images/city-breaks-need-inspiration-bg.jpg);
+}

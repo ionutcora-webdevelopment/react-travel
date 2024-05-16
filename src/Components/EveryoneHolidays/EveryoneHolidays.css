@@ -1,0 +1,46 @@
+.everyone-holidays-section .card {
+    height: 200px;
+}
+
+.everyone-holidays-section .card:hover {
+    cursor: pointer;
+}
+
+.everyone-holidays-section .row .col-md-6:first-of-type .image-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/all-inclusive-all.jpg);
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(2) .image-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/beach-holiday.jpg);
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(3) .image-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../../Assets/Images/boat-cruise.jpg);
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(4) .image-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../../Assets/Images/city-break.jpg);
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(5) .image-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../../Assets/Images/hotel-holiday.jpg);
+}
+
+.everyone-holidays-section .row .col-md-6:last-of-type .image-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/winter-holiday.jpg);
+}
+
+.everyone-holidays-section .image-div {
+    background-position: center;
+    background-size: cover;
+}
+
+.everyone-holidays-section .price {
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 576px) {
+    .everyone-holidays-section .card {
+        height: 300px;
+    }
+}

@@ -1,0 +1,49 @@
+.next-holiday-section .card {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.next-holiday-section .card:hover {
+    cursor: pointer;
+}
+
+.next-holiday-section .card h5 {
+    font-size: 2rem;
+}
+
+.next-holiday-section .row .col-md-6:first-of-type .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/maldives-holiday.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(2) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/holiday-dubai.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(3) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.70)), url(../../Assets/Images/holiday-london.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(4) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/holiday-paris.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(5) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/greece-holiday.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(6) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/spain-holiday.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(7) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/egypt-holiday.jpg);
+}
+
+.next-holiday-section .row .col-md-6:nth-of-type(8) .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/turkey-holiday.jpg);
+}
+
+.next-holiday-section .row .col-md-6:last-of-type .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/thailand-holiday.jpg);
+}
